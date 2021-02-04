@@ -4,6 +4,7 @@ function App() {
   return (
     <div className="App">
       <iframe
+        title="twitch-stream"
         src="https://player.twitch.tv/?channel=zock4fun92&parent=karneval-verbindet.vercel.app"
         frameborder="0"
         allowfullscreen="true"
@@ -12,6 +13,7 @@ function App() {
         width="620"
       ></iframe>
       <iframe
+        title="twitch-chat"
         id="chat_embed"
         src="https://www.twitch.tv/embed/zock4fun92/chat?parent=karneval-verbindet.vercel.app"
         height="500"
