@@ -2,6 +2,11 @@
   text-align: center;
   width: 100vw;
   height: 100vh;
+  background-image: url("./assets/karneval-verbindet.png");
+  background-size: 100vw 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -39,7 +44,8 @@
   }
 }
 
-.Flyer {
-  width: 100vw;
-  height: 100vh;
+.Form {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
 }
