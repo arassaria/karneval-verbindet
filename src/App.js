@@ -18,12 +18,28 @@ function App() {
         height="540"
         src="https://www.youtube.com/live_chat?v=RuA-79Emp1g&amp;embed_domain=localhost"
       ></iframe>
-      <form className="Form">
-        <input type="Text" placeholder="Dein Name" />
-        <input type="Text" placeholder="Titel des Songs" />
-        <input type="Text" placeholder="Interpret" />
-        <button type="submit">Abschicken</button>
-      </form>
+      <iframe
+        title="MusikWuensche"
+        src="https://docs.google.com/forms/d/e/1FAIpQLSfBfvwhAOf0jKIVfhmEGn1nEo1NEPMzh8hiovLCxxEvI9mqZQ/viewform?embedded=true"
+        width="640"
+        height="705"
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0"
+      >
+        Wird geladen…
+      </iframe>
+      <iframe
+        title="Gruesse"
+        src="https://docs.google.com/forms/d/e/1FAIpQLSetcHA024QgVDTxLWfq45w9ZYypi6sJb1kUstEq-paYkWSm5Q/viewform?embedded=true"
+        width="640"
+        height="546"
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0"
+      >
+        Wird geladen…
+      </iframe>
     </div>
   );
 }
