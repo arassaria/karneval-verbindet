@@ -24,7 +24,7 @@ function App() {
             title="LiveChat"
             width="300"
             height="540"
-            src="https://www.youtube.com/live_chat?v=dzwDA6ARiPM&amp;embed_domain=https://karneval-verbindet.vercel.app/"
+            src="https://www.youtube.com/live_chat?v=dzwDA6ARiPM&amp;embed_domain=karneval-verbindet.vercel.app"
           ></iframe>
         </div>
         <div className="Forms">
