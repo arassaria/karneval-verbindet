@@ -25,7 +25,6 @@ img {
   text-align: center;
   width: 100vw;
   height: 100vh;
-<<<<<<< HEAD
   background-image: url("./assets/background.jpg");
   background-size: 100vw 100vh;
   overflow: scroll;
@@ -37,10 +36,6 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-=======
-  background-image: url("./assets/karneval-verbindet.png");
-  background-size: 100vw 100vh;
->>>>>>> main
 }
 
 .App-logo {
