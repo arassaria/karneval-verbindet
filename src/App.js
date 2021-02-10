@@ -1,4 +1,5 @@
 import "./App.css";
+<<<<<<< HEAD
 import hachenburger from "./assets/hachenburger.png";
 import stadtLogo from "./assets/stadt logo.png";
 import esLogo from "./assets/logo-eventservice.png";
@@ -66,6 +67,11 @@ function App() {
       </div>
     </div>
   );
+=======
+
+function App() {
+  return <div className="App"></div>;
+>>>>>>> main
 }
 
 export default App;
