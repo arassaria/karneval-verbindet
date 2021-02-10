@@ -16,8 +16,9 @@ img {
 }
 
 .ESLogo {
-  padding-top: 175px;
-  padding-bottom: 174px;
+  margin-top: 175px;
+  margin-bottom: 174px;
+  background: white;
 }
 
 .App {
@@ -102,6 +103,11 @@ img {
 }
 
 @media only screen and (max-width: 720px) {
+  .App {
+    width: 100vw;
+    overflow-x: none;
+  }
+
   .YouTube {
     width: 352px;
     height: 240px;

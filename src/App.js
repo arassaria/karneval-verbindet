@@ -14,7 +14,7 @@ function App() {
             title="Youtube"
             width="960"
             height="540"
-            src="https://youtube.com/embed/RuA-79Emp1g"
+            src="https://youtube.com/embed/dzwDA6ARiPM?autoplay=1"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
@@ -24,7 +24,7 @@ function App() {
             title="LiveChat"
             width="300"
             height="540"
-            src="https://www.youtube.com/live_chat?v=RuA-79Emp1g&amp;embed_domain=https://karneval-verbindet.vercel.app/"
+            src="https://www.youtube.com/live_chat?v=dzwDA6ARiPM&amp;embed_domain=https://karneval-verbindet.vercel.app/"
           ></iframe>
         </div>
         <div className="Forms">
