@@ -1,12 +1,12 @@
 import "./App.css";
-import hachenburger from "./assets/hachenburger.png";
-import stadtLogo from "./assets/stadt logo.png";
-import esLogo from "./assets/logo-eventservice.png";
+// import hachenburger from "./assets/hachenburger.png";
+// import stadtLogo from "./assets/stadt logo.png";
+// import esLogo from "./assets/logo-eventservice.png";
 
 function App() {
   return (
     <div className="App">
-      <h1>Karneval Verbindet</h1>
+      {/* <h1>Karneval Verbindet</h1>
       <div className="ContentWrapper">
         <div className="Stream">
           <iframe
@@ -71,7 +71,7 @@ function App() {
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
