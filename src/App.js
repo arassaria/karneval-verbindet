@@ -62,6 +62,14 @@ function App() {
               className="ESLogo"
             />
           </div>
+          <div className="LinkContainer">
+            <a href="https://www.eventservice-mb.de/rechtliches/impressum/">
+              Impressum
+            </a>
+            <a href="https://www.eventservice-mb.de/rechtliches/datenschutz/">
+              Datenschutz
+            </a>
+          </div>
         </div>
       </div>
     </div>
