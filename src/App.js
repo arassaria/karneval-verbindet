@@ -18,6 +18,14 @@ function App() {
             scrolling="no"
             allowfullscreen
           ></iframe>
+          <iframe
+            src="https://kolbe-live.de/embed/chat/readwrite"
+            title="Chat"
+            height="350px"
+            width="300px"
+            referrerpolicy="origin"
+            scrolling="no"
+          ></iframe>
         </div>
         <div className="Forms">
           <iframe
