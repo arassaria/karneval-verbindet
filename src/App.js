@@ -10,7 +10,7 @@ function App() {
       <div className="ContentWrapper">
         <div className="Stream">
           <iframe
-            src="https://85.214.223.157:8080/embed/video"
+            src="https://kolbe-live.de/embed/video"
             title="Owncast"
             height="350px"
             width="550px"
