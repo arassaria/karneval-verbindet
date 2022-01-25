@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <h1>Karneval Verbindet</h1>
       <div className="ContentWrapper">
-        <div className="Stream">
+        {/* <div className="Stream">
           <iframe
             src="https://kolbe-live.de/embed/video"
             title="Owncast"
@@ -16,7 +16,7 @@ function App() {
             width="550px"
             referrerpolicy="origin"
             scrolling="no"
-            allowfullscreen
+            allowFullScreen
           ></iframe>
           <iframe
             src="https://kolbe-live.de/embed/chat/readwrite"
@@ -26,7 +26,7 @@ function App() {
             referrerpolicy="origin"
             scrolling="no"
           ></iframe>
-        </div>
+        </div> */}
         <div className="Footer">
           <h3>Unsere Sponsoren</h3>
           <div className="LogoContainer">
