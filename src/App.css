@@ -25,7 +25,8 @@ img {
   text-align: center;
   width: 100vw;
   height: 100vh;
-  background-color: lightgrey;
+  background-image: url("./assets/background.jpg");
+  background-size: 100vw 100vh;
   overflow: scroll;
 }
 
@@ -42,12 +43,22 @@ img {
   pointer-events: none;
 }
 
-.imgContainer {
-  margin-top: 5%;
+.Auctionator {
+  display: flex;
+  flex-direction: row;
+  align-items: space-evenly;
+  background-color: white;
+  border: 1px solid black;
 }
 
-.plakat {
-  box-shadow: 5px 5px 5px black;
+.HighestBid {
+  color: black;
+  text-align: center;
+}
+
+.BiddingForm {
+  display: flex;
+  flex-direction: column;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -77,12 +88,6 @@ img {
   }
 }
 
-.Forms {
-  display: flex;
-  flex-direction: row;
-  padding-top: 25px;
-}
-
 .Stream {
   display: flex;
   flex-direction: row;
@@ -97,10 +102,6 @@ img {
 }
 
 @media only screen and (max-width: 1300px) {
-  .Forms {
-    flex-direction: column;
-  }
-
   .Stream {
     flex-direction: column;
   }
@@ -130,5 +131,11 @@ img {
 
   .Livechat {
     margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .App {
+    background-image: url("./assets/karneval-verbindet_mobil.png");
   }
 }
