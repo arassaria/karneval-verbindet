@@ -1,21 +1,7 @@
-import React, { useEffect, useState } from "react";
-import { getHighestBid } from "../utils/api";
+import React from "react";
 import styled from "styled-components/macro";
 
 const Livestream = () => {
-  const [highestBid, setHighestBid] = useState([]);
-
-  useEffect(() => {
-    try {
-      const doFetch = async () => {
-        const highest = await getHighestBid();
-        setHighestBid(highest);
-      };
-      doFetch();
-    } catch (error) {
-      console.log(error);
-    }
-  }, []);
   return (
     <StreamContainer>
       <FullscreenContainer>
