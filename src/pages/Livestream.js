@@ -18,15 +18,20 @@ const Livestream = () => {
   }, []);
   return (
     <StreamContainer>
-      <Stream
-        src="https://kolbe-live.de/embed/video"
-        title="Owncast"
-        height="350px"
-        width="550px"
-        referrerpolicy="origin"
-        scrolling="no"
-        allowFullScreen="yes"
-      ></Stream>
+      <FullscreenContainer>
+        <Stream
+          src="https://kolbe-live.de/embed/video"
+          title="Owncast"
+          height="350px"
+          width="550px"
+          referrerpolicy="origin"
+          scrolling="no"
+          allowFullScreen="yes"
+        />
+        <a href="https://kolbe-live.de/embed/video" alt="Fullscreen">
+          Vollbild
+        </a>
+      </FullscreenContainer>
       <ChatAuction>
         <iframe
           src="https://kolbe-live.de/embed/chat/readwrite"
@@ -36,15 +41,6 @@ const Livestream = () => {
           referrerpolicy="origin"
           scrolling="no"
         ></iframe>
-        <AuctionHighest>
-          <h3 className="HighestBid">Höchstgebot:</h3>
-          {highestBid?.map((bid) => (
-            <>
-              <p>Name: {bid.name}</p>
-              <p>Gebot: {bid.money}€</p>
-            </>
-          ))}
-        </AuctionHighest>
       </ChatAuction>
     </StreamContainer>
   );
@@ -55,6 +51,7 @@ export default Livestream;
 const ChatAuction = styled.div`
   display: flex;
   min-width: 550px;
+  margin-right: 56px;
   justify-content: space-between;
   @media only screen and (max-width: 550px) {
     flex-wrap: wrap;
@@ -62,23 +59,15 @@ const ChatAuction = styled.div`
   }
 `;
 
-const AuctionHighest = styled.div`
-  background-color: white;
-  border: 1px solid black;
-  box-shadow: 2px 2px grey;
-  padding: 10px;
-  height: fit-content;
-  border-radius: 10px;
-  display: none;
-`;
-
 const StreamContainer = styled.div`
   margin-top: 3%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
 `;
 
 const Stream = styled.iframe`
   flex-basis: 550px;
 `;
+
+const FullscreenContainer = styled.div``;
