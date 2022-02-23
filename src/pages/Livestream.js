@@ -25,7 +25,7 @@ const Livestream = () => {
         width="550px"
         referrerpolicy="origin"
         scrolling="no"
-        allowFullScreen
+        allowFullScreen="yes"
       ></Stream>
       <ChatAuction>
         <iframe
