@@ -4,7 +4,7 @@ import styled from "styled-components/macro";
 const Livestream = () => {
   return (
     <StreamContainer>
-      <FullscreenContainer>
+      {/* <FullscreenContainer>
         <Stream
           src="https://kolbe-live.de/embed/video"
           title="Owncast"
@@ -27,7 +27,10 @@ const Livestream = () => {
           referrerpolicy="origin"
           scrolling="no"
         ></iframe>
-      </ChatAuction>
+      </ChatAuction> */}
+      <h3>
+        Der Stream startet am 24.02.2022 um 11:11 Uhr. Wir freuen uns auf euch.
+      </h3>
     </StreamContainer>
   );
 };
