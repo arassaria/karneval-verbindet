@@ -37,16 +37,16 @@ const Livestream = () => {
 
 export default Livestream;
 
-const ChatAuction = styled.div`
-  display: flex;
-  min-width: 550px;
-  margin-right: 56px;
-  justify-content: space-between;
-  @media only screen and (max-width: 550px) {
-    flex-wrap: wrap;
-    min-width: 0;
-  }
-`;
+// const ChatAuction = styled.div`
+//   display: flex;
+//   min-width: 550px;
+//   margin-right: 56px;
+//   justify-content: space-between;
+//   @media only screen and (max-width: 550px) {
+//     flex-wrap: wrap;
+//     min-width: 0;
+//   }
+// `;
 
 const StreamContainer = styled.div`
   margin-top: 3%;
@@ -55,8 +55,8 @@ const StreamContainer = styled.div`
   justify-content: space-evenly;
 `;
 
-const Stream = styled.iframe`
-  flex-basis: 550px;
-`;
+// const Stream = styled.iframe`
+//   flex-basis: 550px;
+// `;
 
-const FullscreenContainer = styled.div``;
+// const FullscreenContainer = styled.div``;
