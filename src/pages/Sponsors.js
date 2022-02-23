@@ -3,6 +3,7 @@ import hachenburger from "../assets/hachenburger.png";
 import stadtLogo from "../assets/stadt logo.png";
 import esLogo from "../assets/logo-eventservice.png";
 import kolbeAudio from "../assets/kolbe-audio.png";
+import ogStahlhofenLogo from "../assets/stahlhofen.jpg";
 
 const Sponsors = () => {
   return (
@@ -11,6 +12,7 @@ const Sponsors = () => {
       <div className="LogoContainer">
         <img src={hachenburger} alt="Hachenburger Brauerei" />
         <img src={stadtLogo} alt="Karneval Montabaur" />
+        <img src={ogStahlhofenLogo} alt="Ortsgemeinde Stahlhofen" />
         <a
           href="https://www.eventservice-mb.de"
           alt="Eventservice Mario Bachmeier"
