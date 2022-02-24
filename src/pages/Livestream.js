@@ -4,7 +4,7 @@ import styled from "styled-components/macro";
 const Livestream = () => {
   return (
     <StreamContainer>
-      {/* <FullscreenContainer>
+      <FullscreenContainer>
         <Stream
           src="https://kolbe-live.de/embed/video"
           title="Owncast"
@@ -27,26 +27,23 @@ const Livestream = () => {
           referrerpolicy="origin"
           scrolling="no"
         ></iframe>
-      </ChatAuction> */}
-      <h3>
-        Der Stream startet am 24.02.2022 um 11:11 Uhr. Wir freuen uns auf euch.
-      </h3>
+      </ChatAuction>
     </StreamContainer>
   );
 };
 
 export default Livestream;
 
-// const ChatAuction = styled.div`
-//   display: flex;
-//   min-width: 550px;
-//   margin-right: 56px;
-//   justify-content: space-between;
-//   @media only screen and (max-width: 550px) {
-//     flex-wrap: wrap;
-//     min-width: 0;
-//   }
-// `;
+const ChatAuction = styled.div`
+  display: flex;
+  min-width: 550px;
+  margin-right: 56px;
+  justify-content: space-between;
+  @media only screen and (max-width: 550px) {
+    flex-wrap: wrap;
+    min-width: 0;
+  }
+`;
 
 const StreamContainer = styled.div`
   margin-top: 3%;
@@ -55,8 +52,8 @@ const StreamContainer = styled.div`
   justify-content: space-evenly;
 `;
 
-// const Stream = styled.iframe`
-//   flex-basis: 550px;
-// `;
+const Stream = styled.iframe`
+  flex-basis: 550px;
+`;
 
-// const FullscreenContainer = styled.div``;
+const FullscreenContainer = styled.div``;
